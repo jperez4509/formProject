@@ -14,7 +14,7 @@ Movie.prototype = {
 	},
 
 	preview: function preview(){
-		var preDesc = this.desc.slice(0, 5);
+		var preDesc = this.desc.slice(0, 50);
 		return preDesc + "...";
 	}
 
@@ -41,8 +41,8 @@ submit.addEventListener("click", function (evt) {
 	var inputMovie = new Movie(title, time, year, genreInput, description);
 
 	var li = e('li', inputMovie.movieTitle + " / " + inputMovie.runningTimeHours() , {class:"movieDesc", rel:inputMovie.preview() });
-	var ul = document.getElementById("list");
-	ul.appendChild(li);
+	var ol = document.getElementById("list");
+	ol.appendChild(li);
 
 
 	li.addEventListener("click", function () {

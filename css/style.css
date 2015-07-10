@@ -1,9 +1,12 @@
-.center {
-	float: none;
-	margin: 0 auto;
+.left {
 	top: 40px;
+	margin-bottom: 50px;
 	background-color: ghostwhite;
 	border-radius: 5px;
+}
+
+.right {
+	top: 40px;
 }
 
 body {
@@ -14,9 +17,15 @@ form {
 	padding: 20px 10px;
 }
 
-ul {
+h1 {
+	color: #fff;
+}
+
+ol {
 	margin-top: 50px;
+	margin-bottom: 50px;
 }
 li{
 	color: #ffffff;
+	font-size: 20px;
 }
