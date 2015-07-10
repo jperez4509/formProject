@@ -1,0 +1,22 @@
+.center {
+	float: none;
+	margin: 0 auto;
+	top: 40px;
+	background-color: ghostwhite;
+	border-radius: 5px;
+}
+
+body {
+	background-color: #222222;
+}
+
+form {
+	padding: 20px 10px;
+}
+
+ul {
+	margin-top: 50px;
+}
+li{
+	color: #ffffff;
+}
